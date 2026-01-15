@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            border: 2px solid red;
+            height: 400px;
+             display: flex;
+            /* justify-content: flex-start; */
+            /* justify-content: center; */
+            /* justify-content: baseline; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            /* justify-content: space-evenly; */
+            justify-content: center;
+            align-items: center;
+        }
+        #parent div{
+            height :100px;
+            width: 100px;
+            
+            
+        }
+        #parent div:nth-of-type(1){
+            background-color: red;
+
+        }
+        #parent div:nth-of-type(2){
+            background-color: yellow;
+
+        }
+        #parent div:nth-of-type(3){
+            background-color: blue;
+
+        }
+        #parent div:nth-of-type(4){
+            background-color: pink;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
